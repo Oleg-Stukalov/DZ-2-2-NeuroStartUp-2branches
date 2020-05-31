@@ -1,10 +1,20 @@
 # NeuroStartUp
 
-![](logo.png)
+Р’С‹ РјРѕР¶РµС‚Рµ РІСЃС‚СЂРѕРёС‚СЊ NeuroStartUp РІ РІР°С€Рё РїСЂРёР»РѕР¶РµРЅРёСЏ СЃ РїРѕРјРѕС‰СЊСЋ СЃР»РµРґСѓСЋС‰РёС… СЃРЅРёРїРїРµС‚РѕРІ (РєСѓСЃРѕС‡РєРѕРІ) РєРѕРґР°.
 
-*NeuroStartUp* — динамически развивающийся стартап, специализирующийся на поиске с использованием новейших технологий искусственного интеллекта.
+JavaScript:
 
-Наши преимущества:
-* Высокая точность поиска
-* Высокая скорость поиска
-* Низкая цена
+<script src="https://localhost/neuro.sdk.min.js"></script>
+
+Java (Maven):
+
+<dependency>
+  <groupId>neuro</groupId>
+  <artifactId>sdk</artifactId>
+  <version>1.0.0</version>
+</dependency>
+
+iOS (РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РІ РІР°С€ Podfile):
+
+platform :ios, '8.0'
+pod "neuro-ios-sdk"
